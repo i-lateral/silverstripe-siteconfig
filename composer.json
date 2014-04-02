@@ -1,0 +1,23 @@
+{
+    "name": "i-lateral/silverstripe-siteconfig",
+	"description": "Module that allows access to SiteConfig with only core framework (no CMS) installed.",
+	"type": "silverstripe-module",
+	"homepage": "http://github.com/i-lateral/silverstripe-siteconfig",
+	"keywords": ["silverstripe", "siteconfig", "config", "settings", "framework"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Morven Lewis-Everley",
+			"email": "morven@i-lateral.com"
+		}
+	],
+	"support": {
+		"issues": "http://github.com/i-lateral/silverstripe-siteconfig/issues"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1"
+	},
+	"extra": {
+		"installer-name": "siteconfig"
+	}
+}

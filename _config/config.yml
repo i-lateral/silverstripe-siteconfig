@@ -1,3 +1,9 @@
+---
+Name: settingsconfig
+---
+LeftAndMain:
+  extra_requirements_css:
+    - siteconfig/css/admin.css
 Controller:
   extensions:
     - SiteConfig_Controller
